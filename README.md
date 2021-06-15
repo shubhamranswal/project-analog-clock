@@ -1,1 +1,2 @@
-# clock.github.io
+# Analog Clock
+#using HTML, CSS and JS.
