@@ -1,55 +1,55 @@
-#clock{  
-    margin: auto;
-    background-size: 100%;
-    width: 80vmin;
-    height: 80vmin;
-    margin: auto;
-    border: 3vmin solid #000;
-    border-radius: 50%;
-    margin-top: 3vmin;
-    background: #fff url('bg.png') center center;
-    background-size: contain;
-    box-shadow: 
-        inset 40px 40px 90px rgba(0,0,0,.2),
-        inset 10px 10px 30px rgba(0,0,0,.5), 
-        20px 20px 30px rgba(0,0,0,.4),
-        40px 40px 60px rgba(0,0,0,.4);
-    position: relative;
-    z-index: 1;
+#clock {
+  margin: auto;
+  background-size: 100%;
+  width: 80vmin;
+  height: 80vmin;
+  margin: auto;
+  border: 3vmin solid #000;
+  border-radius: 50%;
+  margin-top: 3vmin;
+  background: #fff url("bg.png") center center;
+  background-size: contain;
+  box-shadow: inset 40px 40px 90px rgba(0, 0, 0, 0.2),
+    inset 10px 10px 30px rgba(0, 0, 0, 0.5), 20px 20px 30px rgba(0, 0, 0, 0.4),
+    40px 40px 60px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
 }
 
 body {
-    background: url('bgg.jpg') ;
+  background: url("bgg.jpg");
 }
 
-#h, #min, #sec{
-    position: absolute;
-    background: black;
-    border-radius: 10px; 
-    transform-origin: bottom;
+#h,
+#min,
+#sec {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
 }
-#h{
-    width: 3%;
-    height: 25%;
-    top: 25%;
-    left: 48.85%;
-    opacity: 100;  
+#h {
+  width: 3%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 100;
 }
-#min{
-    width: 1.6%;
-    height: 30%;
-    top: 19%;
-    left: 48.9%;
-    opacity: 100;  
+#min {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 100;
 }
-#sec{
-    width: 1%;
-    height: 40%;
-    top: 9%;
-    left: 49.25%;
-    opacity: 100;  
-    
+#sec {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 100;
 }
+
 a:hover {
   background-color: aliceblue;
   border: #000 solid 1px;
